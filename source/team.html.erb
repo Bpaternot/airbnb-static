@@ -1,0 +1,8 @@
+<ul class="team-list list-inline text-center">
+  <% ["romain", "seb", "anne"].each do |member| %>
+    <li>
+      <%= image_tag "#{member}.jpg", class: "img-circle avatar-large" %>
+      <p><%= member.capitalize %></p>
+    </li>
+  <% end %>
+</ul>
